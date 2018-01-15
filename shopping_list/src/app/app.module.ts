@@ -7,7 +7,6 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import { FIREBASE_CONFIG } from './firebase.credentials';
 
 @NgModule({
