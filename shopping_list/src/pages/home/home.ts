@@ -5,12 +5,6 @@ import { Item } from '../../models/item/item.models';
 
 import { ShoppinglistService } from '../../services/shopping-list/shopping-list.service';
 
-/**
- * Generated class for the HomePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -37,10 +31,6 @@ export class HomePage {
         });
        }
 
-  ///     {
-     //    key: 'value-here',
-       //  name:'ipad pro'
-       //}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomePage');
