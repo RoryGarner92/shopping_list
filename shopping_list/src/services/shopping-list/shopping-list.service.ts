@@ -16,11 +16,15 @@ export class ShoppinglistService {
     }
 
     addItem(item:Item){
-        return this.shoppingListRef.push(item);
+        return this.shoppingListRef.push(item); //pushes the contents to the FB-DB
     }
     
     editItem(item:Item){
         return this.shoppingListRef.update(item.key, item);
-        
     }
+
+    removeItem(item:Item){
+        return this.shoppingListRef.remove(item.key); //pushes the contents to the FB-DB
+    }
+    
 }
